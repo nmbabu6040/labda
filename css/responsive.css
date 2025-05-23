@@ -1,0 +1,231 @@
+/* // `xs` returns only a ruleset and no media query */
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+    .header_content h1 {
+        font-size: 18px;
+        text-transform: capitalize;
+        font-family: "Yeseva One", serif;
+        color: #ffffff;
+        margin-bottom: 100px;
+        position: relative;
+    }
+    .header_content h1::after {
+        position: absolute;
+        bottom: -115%;
+        left: -6%;
+        content: "";
+        width: 230px;
+        height: 40px;
+        background: url(../images/header-shape.png);
+    }
+    .header_content a {
+        padding: 13px 40px;
+        border: 1px solid #d6ceb8;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-family: "Lato", serif;
+        color: #ffffff;
+        margin: 5px;
+        display: inline-block;
+        transition: all linear .4s;
+    }
+    .owner_opinion_content h3 {
+        color: #cc9900;
+        font-size: 26px;
+        font-family: "Yeseva One", serif;
+        text-transform: capitalize;
+        padding-bottom: 15px;
+    }
+    .owner_opinion_content p {
+        font-size: 16px;
+        color: #4c4c4c;
+        font-weight: 400;
+        line-height: 1.6;
+        font-family: "Lato", serif;
+        padding: 0px 15px;
+        margin-bottom: 50px;
+    }
+    .mx-5 {
+        margin-right: 0rem!important;
+        margin-left: 0rem!important;
+    }
+    .review_part_content p {
+        font-size: 13px;
+        color: #dde0df;
+        font-weight: 400;
+        line-height: 1.6;
+        font-family: "Lato", serif;
+        padding: 0px 15px;
+    }
+    .booking_img_part span img{
+        width: 50%;
+    }
+    
+}
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header_content h1 {
+        font-size: 33px;
+        text-transform: capitalize;
+        font-family: "Yeseva One", serif;
+        color: #ffffff;
+        margin-bottom: 100px;
+        position: relative;
+    }
+    .header_content h1::after {
+        position: absolute;
+        bottom: -100%;
+        left: 22%;
+        content: "";
+        width: 230px;
+        height: 40px;
+        background: url(../images/header-shape.png);
+    }
+    .header_content a {
+        padding: 13px 40px;
+        border: 1px solid #d6ceb8;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-family: "Lato", serif;
+        color: #ffffff;
+        margin: 5px;
+        display: inline-block;
+        transition: all linear .4s;
+    }
+    .owner_opinion_content h3 {
+        color: #cc9900;
+        font-size: 26px;
+        font-family: "Yeseva One", serif;
+        text-transform: capitalize;
+        padding-bottom: 15px;
+    }
+    .owner_opinion_content p {
+        font-size: 16px;
+        color: #4c4c4c;
+        font-weight: 400;
+        line-height: 1.6;
+        font-family: "Lato", serif;
+        padding: 0px 15px;
+        margin-bottom: 50px;
+    }
+    .mx-5 {
+        margin-right: 0rem!important;
+        margin-left: 0rem!important;
+    }
+    .review_part_content p {
+        font-size: 13px;
+        color: #dde0df;
+        font-weight: 400;
+        line-height: 1.6;
+        font-family: "Lato", serif;
+        padding: 0px 15px;
+    }
+    .booking_img_part span img{
+        width: 50%;
+    }
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header_content h1 {
+        font-size: 53px;
+        text-transform: capitalize;
+        font-family: "Yeseva One", serif;
+        color: #ffffff;
+        margin-bottom: 125px;
+        position: relative;
+    }
+    .header_content h1::after {
+        position: absolute;
+        bottom: -45%;
+        left: 30%;
+        content: "";
+        width: 230px;
+        height: 40px;
+        background: url(../images/header-shape.png);
+    }
+    .owner_opinion_content h3 {
+        color: #cc9900;
+        font-size: 28px;
+        font-family: "Yeseva One", serif;
+        text-transform: capitalize;
+        padding-bottom: 15px;
+    }
+    .review_part_content p {
+        font-size: 25px;
+        color: #dde0df;
+        font-weight: 400;
+        line-height: 1.6;
+        font-family: "Lato", serif;
+        padding: 0px 60px;
+    }
+    .booking_img_part span img{
+        width: 50%;
+    }
+    .mx-5 {
+        margin-right: 1rem!important;
+        margin-left: 1rem!important;
+    }
+}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .collapse .navbar-nav .nav-item .nav-link {
+        color: #ffffff;
+        font-size: 18px;
+        padding: 0px 20px 10px;
+        font-weight: 700;
+        text-transform: capitalize;
+        font-family: "Gentium Book Plus", serif;
+        display: block;
+        cursor: pointer;
+        position: relative;
+    }
+    .header_content h1 {
+        font-size: 75px;
+        text-transform: capitalize;
+        font-family: "Yeseva One", serif;
+        color: #ffffff;
+        margin-bottom: 125px;
+        position: relative;
+    }
+    .owner_opinion_content img {
+        margin-bottom: 35px;
+    }
+    .owner_opinion_content p {
+        font-size: 16px;
+        color: #4c4c4c;
+        font-weight: 400;
+        line-height: 1.6;
+        font-family: "Lato", serif;
+        padding: 0px 20px;
+        margin-bottom: 50px;
+    }
+    .mx-5 {
+        margin-right: 3rem!important;
+        margin-left: 3rem!important;
+    }
+    .booking_img_part span img{
+        width: 50%;
+    }
+    .booking_form_part p {
+        font-size: 12px;
+        color: #4c4c4c;
+        font-weight: 400;
+        line-height: 1.6;
+        font-family: "Lato", serif;
+        padding: 0px 30px;
+    }
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (min-width: 1200px) and (max-width: 1399.98px){
+   
+}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (min-width: 1400px) {
+    
+}

@@ -1,0 +1,381 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+img{
+    vertical-align: middle;
+}
+
+ul,
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+img,
+ul,
+ol,
+li,
+input,
+form,
+.btn,
+.navbar,
+.breadcrumb,
+.pagination {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body{
+    font-family: "Gentium Book Plus", serif;
+    font-family: "Yeseva One", serif;
+    font-family: "Lato", serif;
+}
+    
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+/* ---------Header start--------- */
+header{
+
+}
+.header_part{
+    background: url(../images/header-banner.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0px 140px;
+}
+.collapse .navbar-nav{
+    margin-top: 0;
+}
+.collapse .navbar-nav .nav-item .nav-link{
+    color: #ffffff;
+    font-size: 21px;
+    padding: 0px 25px 10px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: "Gentium Book Plus", serif;
+    display: block;
+    cursor: pointer;
+    position: relative;
+} 
+.collapse .navbar-nav .nav-item:last-child .nav-link{
+    padding-right: 0;
+}
+.collapse .navbar-nav .nav-item .nav-link::before{
+    position: absolute;
+    width: 0;
+    height: 2px;
+    top: -40px;
+    left: 3%;
+    content: "";
+    background: #ffffff;
+    transition: all linear .4s;
+}
+.collapse .navbar-nav .nav-item .nav-link:hover::before{
+    width: 100%;
+}
+.collapse .navbar-nav span a{
+    margin-right: 15px;
+    color: #dab33e;
+    display: inline-block;
+}
+.header_content h1{
+    font-size: 90px;
+    text-transform: capitalize;
+    font-family: "Yeseva One", serif;
+    color: #ffffff;
+    margin-bottom: 125px;
+    position: relative;
+}
+.header_content h1::after{
+    position: absolute;
+    bottom: -27%;
+    left: 38%;
+    content: "";
+    width: 230px;
+    height: 40px;
+    background: url(../images/header-shape.png);
+}
+.header_content a{
+    padding: 20px 50px;
+    border: 1px solid #d6ceb8;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Lato", serif;
+    color: #ffffff;
+    margin: 5px;
+    display: inline-block;
+    transition: all linear .4s;
+}
+.header_content a:hover{
+    background: rgb(36, 42, 44, 0.8);
+    border-color: rgb(36, 42, 44, 0.8);
+}
+
+/*-------------------------------owner_opinion_part start--------------------------*/
+.owner_opinion_part{
+    background: url(../images/banner-2.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px 40px;
+}
+.owner_opinion_content h3{
+    color: #cc9900;
+    font-size: 36px;
+    font-family: "Yeseva One", serif;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+.owner_opinion_content img{
+    margin-bottom: 60px;
+}
+.owner_opinion_content p{
+    font-size: 16px;
+    color: #4c4c4c;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: "Lato", serif;
+    padding: 0px 35px;
+    margin-bottom: 50px;
+}
+/*-----------------------ingredients_part start*/
+.ingredients_part{
+    background: url(../images/banner-3.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+.gredients_part{
+    background: rgb(41, 35, 32, 0.67);
+}
+.gredients_part h3{
+    color: #ffffff;
+    font-size: 36px;
+    font-family: "Yeseva One", serif;
+    text-transform: capitalize;
+    margin-top: 60px;
+}
+.gredients_part img{
+    margin-bottom: 60px;
+}
+.gredients_part p{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: "Lato", serif;
+    padding: 0px 35px;
+    margin-bottom: 70px;
+}
+.gredients_part span img{
+    padding: 0px 12.5px;
+}
+
+/*------------------------menu_card start-------------------------*/
+.menu_card{
+    background: url(../images/pettarn_bennar-5.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+.menu_item h3{
+    color: #cc9900;
+    font-size: 36px;
+    font-family: "Yeseva One", serif;
+    text-transform: capitalize;
+}
+.menu_item img{
+    margin-bottom: 30px;
+}
+.menu_item .menu_item_list span h5{
+    color: #c89f2d;
+    font-size: 21px;
+    text-transform: capitalize;
+    font-family: "Yeseva One", serif;
+}
+.menu_item .menu_item_list p{
+    font-size: 16px;
+    color: #4c4c4c;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: "Lato", serif;
+}
+.menu_item .menu_item_list span{
+    position: relative;
+    margin-bottom: 20px;
+}
+.menu_item .menu_item_list span::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    bottom: -10px;
+    background: #c89f2d;
+}
+.menu_sala_border{
+    border: 1px solid #c89f2d;
+}
+.menu_batch{
+    background: #c89f2d;
+    padding: 5px 10px;
+    position: absolute;
+    top: -35px;
+    right: 0;
+}
+.menu_batch p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Lato", serif;
+    
+}
+/*--------------------------review_part start-----------------------*/
+.review_part{
+    background: url(../images/banner-4.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+.review_part_content{
+    background: rgb(5, 4, 2, 0.67);
+}
+.review_part_content h3{
+    color: #ffffff;
+    font-size: 36px;
+    font-family: "Yeseva One", serif;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+.review_part_content img{
+    margin-bottom: 50px;
+}
+.review_part_content p{
+    font-size: 25px;
+    color: #dde0df;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: "Lato", serif;
+    padding: 0px 150px;
+}
+.review_part_content p i{
+    font-size: 36px;
+    color: #9a9d9b;
+}
+
+/*------------------------booking_part start-----------------*/
+.booking_part{
+    background: url(../images/banner-2.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+.booking_form_part h3{
+    color: #cc9900;
+    font-size: 36px;
+    font-family: "Yeseva One", serif;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+.booking_form_part img{
+    margin-bottom: 30px;
+}
+.booking_form_part p{
+    font-size: 16px;
+    color: #4c4c4c;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: "Lato", serif;
+    padding: 0px 50px;
+}
+.booking_form_part form label.form-label{
+    color: #c9a131;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Lato", serif;
+    text-transform: capitalize;
+}
+.booking_form_part form input{
+    box-shadow: #c9a131;
+}
+.booking_form_part form button.book_btn{
+    padding: 7px 40px;
+    background: #c89f2d;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+/* footer_part start */
+.footer_part{
+    background: #191919;
+    padding: 60px 0px;
+}
+.footer_item{
+    padding: 20px 10px;
+}
+.footer_item h4{
+    color: #ffffff;
+    padding-bottom: 15px;
+    font-size: 21px;
+    font-family: "Yeseva One", serif;
+    text-transform: capitalize;
+}
+.footer_item img{
+    margin-bottom: 30px;
+}
+.footer_item p{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Lato", serif;
+}
+.footer_item span a{
+    margin-top: 50px;
+    display: inline-block;
+}
+.footer_item a i{
+    color: #ffffff;
+}
